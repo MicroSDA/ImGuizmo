@@ -1219,6 +1219,7 @@ namespace ImGuizmo
 
          drawList->AddPolyline(circlePos, circleMul * halfCircleSegmentCount + 1, colors[3 - axis], false, 6.0f);
       }
+
       if(hasRSC)
       {
          drawList->AddCircle(worldToPos(gContext.mModel.v.position, gContext.mViewProjection), gContext.mRadiusSquareCenter * 1.1f, colors[0], 64, 6.0f);
